@@ -1,0 +1,32 @@
+/* You can add global styles to this file, and also import other style files */
+body{
+    background-image: url("59a05d725869b.image.jpg");
+    background-size:cover;
+    font-family: Helvetica, Arial, sans-serif;
+    color: black;
+}
+
+table {  
+    border-radius: 10px;
+    color: #333;
+    font-family: Helvetica, Arial, sans-serif;
+    width: 640px; 
+    border-collapse: 
+    collapse; border-spacing: 0; 
+    background: rgba(255,255,255,0.5);
+};
+
+td, th {  
+    border: 1px solid transparent; /* No more visible border */
+    height: 30px; 
+    transition: all 0.3s;  /* Simple transition for hover effect */
+}
+
+th {  
+    background: #DFDFDF;  /* Darken header a bit */
+    font-weight: bold;
+}
+
+
+tr td:hover { background: #666; color: #FFF; }  
+/* Hover cell effect! */
